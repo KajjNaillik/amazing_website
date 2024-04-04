@@ -1,7 +1,7 @@
 /* styles.css */
 body {
   font-family: 'Arial', sans-serif;
-  background-image: url('buddehwallpaper.png');
+  background-image: url('animated.gif');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -18,8 +18,14 @@ body {
 }
 
 .title {
-  color: #2d3748; /* This is Tailwind's gray-800 */
-  font-size: 2.25rem; /* This is Tailwind's text-4xl */
+  color: #000000; /* This is Tailwind's gray-800 */
+  font-size: 3.25rem; /* This is Tailwind's text-4xl */
+  font-weight: bold;
+  margin-bottom: 1rem; /* This is Tailwind's mb-4 */
+}
+.title2 {
+  color: #000000; /* This is Tailwind's gray-800 */
+  font-size: 3.07rem; /* This is Tailwind's text-4xl */
   font-weight: bold;
   margin-bottom: 1rem; /* This is Tailwind's mb-4 */
 }
