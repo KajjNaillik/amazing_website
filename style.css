@@ -1,13 +1,28 @@
 /* styles.css */
 body {
-    font-family: 'Arial', sans-serif;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  /* Additional styles may be added here for customization */
-  
+  font-family: 'Arial', sans-serif;
+  background-image: url('buddehwallpaper.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  padding-left: 5%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.content-container {
+  max-width: 640px; /* Adjust the max width as needed */
+}
+
+.title {
+  color: #2d3748; /* This is Tailwind's gray-800 */
+  font-size: 2.25rem; /* This is Tailwind's text-4xl */
+  font-weight: bold;
+  margin-bottom: 1rem; /* This is Tailwind's mb-4 */
+}
+
+.description {
+  color: #4a5568; /* This is
